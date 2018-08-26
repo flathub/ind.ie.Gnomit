@@ -5,7 +5,7 @@
     "sdk" : "org.gnome.Sdk",
     "command" : "ind.ie.Gnomit",
     "x-run-args" : [
-        "sandbox/gnomit/gjs/tests/message-with-body"
+        "ind.ie/gnomit/gjs/tests/message-without-body"
     ],
     "finish-args" : [
         "--share=network",
@@ -67,8 +67,8 @@
                 {
                     "type" : "git",
                     "url" : "https://source.ind.ie/gnome/gnomit/gjs.git",
-                    "tag" : "1.0.1",
-                    "commit" : "93bad68e4d74e3c9f5cebd2827c9b4609a88cb53"
+                    "tag" : "1.0.2",
+                    "commit" : "6bebb527f2d78eb5742a4183759452e843375b09"
                 }
             ]
         }
