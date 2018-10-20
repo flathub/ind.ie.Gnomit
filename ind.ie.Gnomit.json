@@ -1,7 +1,7 @@
 {
     "app-id" : "ind.ie.Gnomit",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "3.28",
+    "runtime-version" : "3.30",
     "sdk" : "org.gnome.Sdk",
     "command" : "ind.ie.Gnomit",
     "x-run-args" : [
@@ -19,8 +19,6 @@
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
     "build-options" : {
-        "cflags" : "-O2 -g",
-        "cxxflags" : "-O2 -g",
         "env" : {
             "V" : "1"
         }
@@ -59,10 +57,6 @@
         {
             "name" : "gnomit",
             "buildsystem" : "meson",
-            "config-opts" : [
-                "--libdir=lib"
-            ],
-            "builddir" : true,
             "sources" : [
                 {
                     "type" : "git",
