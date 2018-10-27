@@ -67,8 +67,8 @@
                 {
                     "type" : "git",
                     "url" : "https://source.ind.ie/gnome/gnomit/gjs.git",
-                    "tag" : "1.0.5",
-                    "commit" : "8c6be336ae156340649994207c7cc54bf0712cea"
+                    "tag" : "1.0.6",
+                    "commit" : "57b55312c0ee97833a14df5d359560d286e5bab7"
                 }
             ]
         }
